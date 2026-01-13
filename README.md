@@ -34,7 +34,7 @@ Complete variant calling workflow using GATK practices:
 - **Joint genotyping**: GenomicsDBImport + GenotypeGVCFs
 
 ### 2. Genetic Diversity (`01Diversity/`)
-Population-level diversity statistics using ScanTools (https://github.com/pmonnahan/ScanTools.git):
+Population-level diversity statistics using ScanTools (https://github.com/pmonnahan/ScanTools):
 - Nucleotide diversity (π)
 - Fixation index (Fst)
 - Absolute divergence (Dxy)
@@ -52,7 +52,7 @@ Ancestry inference using Entropy software:
 Novel ABC-Simulated Annealing approach to infer polyploid origins:
 - Generation of MSAs
 - Polyploid polarization using PolyAncestor pipeline (https://github.com/LLN273/PolyAncestor)
-- Polyploid model testing following simulated annealing and approximate Bayesian computation (ABC) algorithm
+- Polyploid model testing following simulated annealing and approximate Bayesian computation (ABC) algorithm following (https://github.com/LLN273/Complex-Polyploids)
 
 ### 5. Model Evaluation (`04polyAncestor-Model_evaluation/`)
 Validation of polyploid ancestry models:
